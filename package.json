@@ -1,0 +1,58 @@
+{
+  "name": "@juanjo4u/react_native_selecter_generator",
+  "version": "1.0.5",
+  "description": "selecter, selecter generator",
+  "main": "src/index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanjo4U/react_native_selecter_generator.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "selecter",
+    "selecter",
+    "generator"
+  ],
+  "author": "Juanjo4U",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juanjo4U/react_native_selecter_generator/issues"
+  },
+  "homepage": "https://github.com/Juanjo4U/react_native_selecter_generator#readme",
+  "dependencies": {
+    "react": "17.0.1",
+    "react-native": "0.64.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.20",
+    "@types/react-native": "^0.64.0",
+    "@types/react-test-renderer": "^16.9.2",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "react-test-renderer": "17.0.1",
+    "typescript": "^3.8.3"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
