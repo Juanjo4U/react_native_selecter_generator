@@ -42,7 +42,7 @@ export const GenerateSelector = ({
             ...choises,
             [id]: {
                 ...choises[id],
-                isActive: isRequired ? (nSelected <= minSelections ? true : !choises[id].isActive) : !choises[id].isActive
+                isActive: isRequired && nSelected <= minSelections ? true : !choises[id].isActive
             }
         }
         const formatedResult = Object.values(localResult).filter(val => val.isActive);

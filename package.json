@@ -1,6 +1,6 @@
 {
   "name": "@juanjo4u/react_native_selecter_generator",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "selecter, selecter generator",
   "main": "src/index.tsx",
   "scripts": {
